@@ -1,0 +1,20 @@
+name: Bug report
+description: Something doesn't work as documented
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Command run, expected output, actual output.
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, version, how installed.
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
